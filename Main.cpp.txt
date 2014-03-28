@@ -12,9 +12,12 @@
 
 using namespace std; 
 
-int main(int argc, char *argv[]) { 
-string s("hello"); 
-const char *p = s.c_str(); 
-while (*p != '\0') cout << *p++ << endl; 
+iint main() { 
+string digits; 
+cin >> digits;
+// "*p" is the pointer
+const char *p = digits.c_str(); 
+while (*p != '\0') cout << *p++; 
 return 0; 
+system: ("Pause");
 } 
