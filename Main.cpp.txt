@@ -1,0 +1,20 @@
+/*
+*
+*Larry's Program 
+*
+*/
+
+
+
+
+#include <iostream> 
+#include <string> 
+
+using namespace std; 
+
+int main(int argc, char *argv[]) { 
+string s("hello"); 
+const char *p = s.c_str(); 
+while (*p != '\0') cout << *p++ << endl; 
+return 0; 
+} 
